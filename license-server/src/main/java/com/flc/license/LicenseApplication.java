@@ -13,7 +13,12 @@ package com.flc.license;
 @SpringBootApplication(scanBasePackages = {"com.flc.license"})
 public class LicenseApplication {
 
+
     public static void main(String[] args) {
-        SpringApplication.run(LicenseApplication.class);
+        try{
+            SpringApplication.run(LicenseApplication.class);
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
     }
 }
