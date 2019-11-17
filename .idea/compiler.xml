@@ -16,7 +16,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-cloud-stream" />
+        <module name="license-server" />
+        <module name="organization-service" />
       </profile>
     </annotationProcessing>
   </component>
